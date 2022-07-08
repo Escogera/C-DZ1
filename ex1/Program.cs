@@ -5,10 +5,14 @@ int b = Convert.ToInt32(Console.ReadLine());
 if (a>b)
 {
     Console.Write("max=");
-    Console.Write(a);
+    Console.WriteLine(a);
+    Console.Write("min=");
+    Console.Write(b);
 }
 else 
 {
     Console.Write("max=");
-    Console.Write(b);
+    Console.WriteLine(b);
+    Console.Write("min=");
+    Console.Write(a);
 }
