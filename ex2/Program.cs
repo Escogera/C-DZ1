@@ -3,23 +3,30 @@
 //44 5 78 -> 78
 //22 3 9 -> 22
 
+
 Console.WriteLine("Введите 1е число");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите 2е число");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите 3е число");
 int c = Convert.ToInt32(Console.ReadLine());
+int max;
 if (a>b)
 {
-    Console.Write("max=");
-    Console.WriteLine(a);
-    Console.Write("min=");
-    Console.Write(b);
+    max=a;
 }
 else 
 {
-    Console.Write("max=");
-    Console.WriteLine(b);
-    Console.Write("min=");
-    Console.Write(a);
+    max=b;
+}
+if (max>c)
+{
+    Console.Write("max=");   
+    Console.WriteLine(max);     
+}
+else 
+{
+    max=c;
+    Console.Write("max=");   
+    Console.WriteLine(max);     
 }
